@@ -1,0 +1,12 @@
+[2021-12-06 00:19:28,835] INFO -> [START] _fetch_active_gcode_from_ahopss	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_active_gcode_from_ahopss:103
+[2021-12-06 00:19:28,835] INFO -> [ END ] _fetch_active_gcode_from_ahopss	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_active_gcode_from_ahopss:103
+[2021-12-06 00:19:28,835] INFO -> [START] _fetch_installing_gcode_from_lcs	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_installing_gcode_from_lcs:104
+[2021-12-06 00:19:28,836] INFO -> [ END ] _fetch_installing_gcode_from_lcs	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_installing_gcode_from_lcs:104
+[2021-12-06 00:19:28,836] INFO -> [START] _fetch_zaiko_amount_from_lcs_and_logitics	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_zaiko_amount_from_lcs_and_logitics:105
+[2021-12-06 00:19:28,836] INFO -> [ END ] _fetch_zaiko_amount_from_lcs_and_logitics	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_zaiko_amount_from_lcs_and_logitics:105
+[2021-12-06 00:20:36,953] INFO -> [START] _fetch_active_gcode_from_ahopss	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_active_gcode_from_ahopss:103
+[2021-12-06 00:20:36,953] INFO -> [ END ] _fetch_active_gcode_from_ahopss	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_active_gcode_from_ahopss:103
+[2021-12-06 00:20:36,953] INFO -> [START] _fetch_installing_gcode_from_lcs	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_installing_gcode_from_lcs:104
+[2021-12-06 00:20:36,953] INFO -> [ END ] _fetch_installing_gcode_from_lcs	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_installing_gcode_from_lcs:104
+[2021-12-06 00:20:36,953] INFO -> [START] _fetch_zaiko_amount_from_lcs_and_logitics	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_zaiko_amount_from_lcs_and_logitics:105
+[2021-12-06 00:20:36,953] INFO -> [ END ] _fetch_zaiko_amount_from_lcs_and_logitics	/Users/tmkmrmt/Documents/youtube-api-python-copy/tasks/gcode_main_info/gcode_main_info.py - _fetch_zaiko_amount_from_lcs_and_logitics:105

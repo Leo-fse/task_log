@@ -9,6 +9,7 @@ Options:
   --reset       Reset all data.
 
 """
+from datetime import datetime
 from docopt import docopt
 import pathlib
 from colorama import Fore, Style
@@ -55,34 +56,38 @@ def _task_executor(task, *args):
 
     if completed_tasks.count(task_name) > 0:
         print(
-            f"{Fore.MAGENTA}[SKIP] {task_name} is completed.{Style.RESET_ALL}")
+            f"{Fore.MAGENTA}{datetime.now()} [SKIP] {task_name} is completed.{Style.RESET_ALL}")
         return
 
     try:
-        print(f"{Fore.GREEN}[EXEC] {task_name} is started.{Style.RESET_ALL}")
+        print(
+            f"{Fore.GREEN}{datetime.now()} [EXEC] {task_name} is started.{Style.RESET_ALL}")
         task(*args)
     except Exception as e:
-        print(f"{Fore.RED}[FAIL] {task_name} is failed.{Style.RESET_ALL}")
+        print(
+            f"{Fore.RED}{datetime.now()} [FAIL] {task_name} is failed.{Style.RESET_ALL}")
         print(e)
         exit()
     else:
         print(
-            f"{Fore.CYAN}[SUCCESS] {task_name} is completed.{Style.RESET_ALL}")
+            f"{Fore.CYAN}{datetime.now()} [SUCCESS] {task_name} is completed.{Style.RESET_ALL}")
         with fp.open(mode="a") as f:
             f.write(f"{task_name}\n")
 
 
 def _force_task_executor(task, *args):
     try:
-        print(f"{Fore.GREEN}[EXEC] {task_name} is started.{Style.RESET_ALL}")
+        print(
+            f"{Fore.GREEN}{datetime.now()} [EXEC] {task_name} is started.{Style.RESET_ALL}")
         task(*args)
     except Exception as e:
-        print(f"{Fore.RED}[FAIL] {task_name} is failed.{Style.RESET_ALL}")
+        print(
+            f"{Fore.RED}{datetime.now()} [FAIL] {task_name} is failed.{Style.RESET_ALL}")
         print(e)
         exit()
     else:
         print(
-            f"{Fore.CYAN}[SUCCESS] {task_name} is completed.{Style.RESET_ALL}")
+            f"{Fore.CYAN}{datetime.now()} [SUCCESS] {task_name} is completed.{Style.RESET_ALL}")
 
 
 if __name__ == "__main__":
