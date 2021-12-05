@@ -1,0 +1,13 @@
+pycodestyle
+autopep8
+mypy
+black
+pandas
+numpy
+matplotlib
+workflow
+colorama
+docopt
+pydantic
+cx_Oracle
+pymongo
